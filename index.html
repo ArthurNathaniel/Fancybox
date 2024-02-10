@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancybox Media Viewer Example</title>
+
+    <!-- Fancybox CSS file -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+    <!-- jQuery library (required by Fancybox) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Fancybox JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="title">
+    <h1>Fancybox Media Viewer Example</h1>
+  </div>
+
+    <div class="gallery_all">
+<div class="gallery">
+    <a href="./images/1.jpg" data-fancybox="gallery">
+        <img src="./images/1.jpg" alt="Image 1">
+    </a>
+</div>
+<div class="gallery">
+    <a href="./images/2.jpg" data-fancybox="gallery">
+        <img src="./images/2.jpg" alt="Image 1">
+    </a>
+</div>
+<div class="gallery">
+    <a href="./images/3.jpg" data-fancybox="gallery">
+        <img src="./images/3.jpg" alt="Image 1">
+    </a>
+</div>
+
+<div class="gallery">
+    <a href="./images/4.jpg" data-fancybox="gallery">
+        <img src="./images/4.jpg" alt="Image 1">
+    </a>
+</div>
+
+<div class="gallery">
+    <a href="./images/5.jpg" data-fancybox="gallery">
+        <img src="./images/5.jpg" alt="Image 1">
+    </a>
+</div>
+
+<div class="gallery">
+    <a href="./images/6.jpg" data-fancybox="gallery">
+        <img src="./images/6.jpg" alt="Image 1">
+    </a>
+</div>
+
+
+    </div>
+
+    <!-- Initialize Fancybox -->
+    <script>
+        $(document).ready(function () {
+            $('[data-fancybox]').fancybox();
+        });
+    </script>
+
+</body>
+
+</html>
+
+<style>
+   
+</style>
